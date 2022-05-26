@@ -28,6 +28,7 @@ const getUserById = (request, response) => {
     response.status(200).json(results.rows);
   });
 };
+//aa
 
 //create user
 const createUser = (request, response) => {
